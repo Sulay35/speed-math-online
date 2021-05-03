@@ -1,0 +1,53 @@
+body{
+    background-color: #faf3e0;
+    color: #b68973;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1,h2,h3{
+    color: #62959c;
+    font-size: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#calcul_display{
+    font-family: 'Rubik', sans-serif;
+    font-size: 150px;
+}
+
+#responses{
+    padding-bottom: 20px ;
+}
+
+button{
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+
+    margin: 10px;
+
+    background-color: #eabf9f;
+    border: 2px transparent solid;
+    padding: 15px 50px;
+    transition: all ease-in 0.4s;
+}
+button:hover{
+    cursor: pointer;
+    border: 2px #caa588 solid;
+    background-color: #e4ac81;
+
+    transition: all ease-in 0.1s;
+}
+
+button:focus{
+    outline: none;
+}
